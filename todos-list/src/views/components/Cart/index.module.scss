@@ -1,0 +1,28 @@
+.cartContainer {
+    position: absolute;
+    right: 55px;
+    top: 15px;
+}
+
+.cartContent {
+    position: relative;
+
+    &Button {
+        border: none;
+        background: none;
+        cursor: pointer;
+        padding: 0;
+    }
+
+
+    &Counter {
+        position: absolute;
+        top: -3px;
+        right: -5px;
+        font-size: 12px;
+        background: white;
+        padding: 0 4px;
+        border-radius: 50%;
+        color: #3F72AF;
+    }
+}
