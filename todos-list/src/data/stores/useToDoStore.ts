@@ -17,7 +17,7 @@ interface ToDoStore {
     tasks: Task[];
     doneTasks: Done[];
     doneCount: number;
-    createTask: (title: string) => void;
+    createTask: (title: string) => unknown;
     updateTask: (id: string, title: string) => void;
     removeTask: (id: string) => void;
     addToCart: (id: string) => void;
